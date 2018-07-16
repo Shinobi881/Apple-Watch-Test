@@ -6,12 +6,16 @@
     "node": ">=8.11.1"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
+    "flow-bin": "^0.76.0",
     "jest": "^23.4.1",
     "jest-react-native": "^18.0.0",
     "react-test-renderer": "16.3.1"
@@ -20,12 +24,14 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest"
+    "test": "jest",
+    "flow": "flow"
   },
   "jest": {
     "preset": "react-native"
   },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "16.3.1",
     "react-native": "~0.55.2",
     "rn-apple-healthkit": "^0.6.3"
